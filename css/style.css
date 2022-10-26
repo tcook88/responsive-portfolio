@@ -104,10 +104,43 @@ a:hover {
     padding: 60px;
 }
 
+.about-content { 
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 60px;
+}
+
+.about-hero {
+    padding: 160px 20px;
+}
+
+.about-hero h1 { 
+    font-size: 64px;
+}
+
+.about-hero h2 { 
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.about-hero p { 
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+.my-img { 
+    border-radius: 16px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: 30px;
+}
+
 @media (max-width: 990px) {
     .hero { 
         padding: 80px 20px;
     }
+
     h1 { 
         font-size: 64px;
     }
@@ -131,6 +164,10 @@ a:hover {
 
     .row { 
         padding: 30px;
+    }
+
+    .about-hero h1 { 
+        text-align: center;
     }
 }
 
