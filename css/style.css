@@ -62,8 +62,12 @@ p {
     border: 1px solid #1D4B2F;
 }
 
-a:hover { 
+ .hero a:hover { 
     color: white;
+}
+
+a:hover { 
+    color: #1D4B2F;
 }
 
 .button-primary { 
@@ -88,4 +92,33 @@ a:hover {
     padding: 60px;
 }
 
+@media (max-width: 990px) {
+    .hero { 
+        padding: 80px 20px;
+    }
+    h1 { 
+        font-size: 64px;
+    }
+
+    h2 { 
+        text-align: center;
+        font-size: 48px;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .button-primary { 
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .row { 
+        padding: 30px;
+    }
+}
 
