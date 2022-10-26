@@ -9,6 +9,18 @@ body {
     color: #272343;
 }
 
+.navbar { 
+    padding: 5px;
+}
+
+.logo { 
+    border: 2px solid #B7882B;
+    color: #B7882B;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
 h1 { 
     font-family: var(--heading-font);
     font-size: 96px;
