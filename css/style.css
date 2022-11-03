@@ -136,6 +136,30 @@ a:hover {
     margin-left: 30px;
 }
 
+.work-intro { 
+font-size: 64px;
+font-weight: 700;
+margin-top: 177px;
+margin-left: 144px;
+max-width: 852px;
+}
+
+.work-content { 
+    margin-top: 16px;
+}
+
+.work-titles { 
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.work-text { 
+    font-size: 14px;
+    text-align: center;
+    margin-top: 9px;
+}
+
 @media (max-width: 990px) {
     .hero { 
         padding: 80px 20px;
@@ -168,6 +192,10 @@ a:hover {
 
     .about-hero h1 { 
         text-align: center;
+    }
+
+    .work-intro { 
+        font-size: 48px
     }
 }
 
