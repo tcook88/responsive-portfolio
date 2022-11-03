@@ -140,6 +140,25 @@ a:hover {
     margin-left: 30px;
 }
 
+.photo-wrapper { 
+    display: flex;
+    justify-content: center;
+}
+
+.project-img { 
+    max-width: 400px;
+    height: 400px;
+    background-color: #EAF6F6;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.homepage-photo { 
+    background-color: #EAF6F6;
+    padding: 25px;
+    border-radius: 8px;
+}
+
 .intro { 
 font-size: 64px;
 font-weight: 700;
