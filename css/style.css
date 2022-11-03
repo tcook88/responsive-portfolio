@@ -21,6 +21,10 @@ body {
     margin-left: 25px;
 }
 
+.is-active { 
+    color: #B7882B;
+}
+
 h1 { 
     font-family: var(--heading-font);
     font-size: 96px;
